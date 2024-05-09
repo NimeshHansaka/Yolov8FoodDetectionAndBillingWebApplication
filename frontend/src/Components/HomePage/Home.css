@@ -1,0 +1,70 @@
+
+
+
+.navbar {
+    background-color: #000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the logo container */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the logo image */
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Style for the logo text */
+.logo-text {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style for the navigation links */
+.nav-links {
+    display: flex;
+    padding-right: 10px;
+}
+
+/* Style for each navigation link */
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/* Hover style for navigation links */
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Style for the main content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: calc(98vh - 80px); /* Adjusted to account for navbar height */
+}
+
+/* Style for the camera button */
+.camera-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

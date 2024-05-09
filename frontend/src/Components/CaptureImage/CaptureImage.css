@@ -1,0 +1,95 @@
+/* Center align all content */
+.capture-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure full height of viewport is covered */
+    position: relative; /* Added position relative for positioning the close button */
+  }
+  
+  /* Center align content within .App */
+  .capture-form {
+    text-align: center;
+  }
+  
+  /* Style for heading */
+  .welcome-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for instruction */
+  .instruction {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for webcam container */
+  .webcam-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for detected items */
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for list of detected items */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style for each detected item */
+  li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for loading text */
+  .loading-text {
+    font-size: 16px;
+  }
+  
+  /* Style for capture button */
+  .capture-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* Hover style for capture button */
+  .capture-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for no items detected message */
+  .no-items-detected-message {
+    color: #f00;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Style for error icon */
+  .error-icon {
+    margin-right: 5px;
+  }
+  
+  /* Style for close button */
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }

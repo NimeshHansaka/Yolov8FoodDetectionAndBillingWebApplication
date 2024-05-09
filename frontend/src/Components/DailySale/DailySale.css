@@ -1,0 +1,185 @@
+.full-page {
+    margin: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+    color: #ffd700;
+}
+
+.section-title {
+    margin-top: 20px;
+}
+
+.date-picker label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.daily-sales, .expenditure, .total-expenditure, .profit {
+    margin-top: 20px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.data-table th, .data-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table th {
+    background-color: #f2f2f2;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* .data-table tbody tr:hover {
+    background-color: #f2f2f2;
+} */
+
+.expenditure-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.expenditure-item input {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #cfc924;
+    border-radius: 3px;
+}
+
+.blue-button {
+    padding: 8px 16px;
+    background-color: #00ff33;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.save-button {
+    padding: 8px 16px;
+    background-color: #00a2ff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    padding: 8px 16px;
+    background-color: #0178bc;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.blue-button:hover {
+    background-color: #41f60a;
+}
+
+.remove-button {
+    padding: 6px 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #c82333;
+}
+
+.data-table .total-expenditure-row{
+    background-color: #f3f69f; /* Change to the color of your choice */
+    color: #333; /* Change to the text color of your choice */
+}
+
+
+.total-sale-row {
+    background-color: #b1fdef; /* Change to the color of your choice */
+    color: #333; /* Change to the text color of your choice */
+}
+
+.profit-row {
+    background-color: #c2b4ff; /* Change to the color of your choice */
+    color: #333; /* Change to the text color of your choice */
+}
+
+.total-sale-row td:first-child {
+    font-weight: bold;
+    text-align: right;
+    
+}
+
+
+.total-sale-row td {
+    font-weight: bold;
+}
+
+.profit-row td{
+    font-weight: bold;
+   
+}
+
+
+
+.total-expenditure-row td{
+    font-weight: bold;
+   
+}
+
+.total-sale-row td:first-child,
+.profit-row td:first-child {
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+.total-expenditure-row td:first-child {
+    font-weight: bold;
+    text-align: right;
+}
+
+.daily-sales {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.save-sales-button {
+    margin-right: 50vh;
+   margin-top: 10px;
+    align-self: flex-end;
+}

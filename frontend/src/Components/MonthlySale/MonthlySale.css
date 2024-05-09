@@ -1,0 +1,112 @@
+
+
+
+  /* MonthlySales.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.full-page {
+    margin: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li svg {
+    margin-right: 5px;
+}
+
+.navbar ul li a:hover {
+    color: #ffd700;
+}
+
+.full-page {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+tfoot td {
+    border-top: 2px solid #333;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* .date-picker {
+    margin-bottom: 20px;
+  input {
+        width: 100%;
+    }
+    .ui-datepicker-trigger {
+        width: 20px;
+        height: 20px;
+    }
+    .ui-datepicker-trigger {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+} */
+
+
+.date-picker label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+
+.container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.total-row {
+    color: rgb(0, 0, 0); /* Change to your desired color */
+    background-color:  #b1fdef;
+}

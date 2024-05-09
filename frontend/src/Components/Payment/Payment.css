@@ -1,0 +1,113 @@
+.payment-information-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.payment-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.total-bill, .reference-number {
+  font-size: 18px;
+}
+
+.paypal-button-container {
+  margin-top: 20px;
+}
+
+.payment-success, .payment-error {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.success-icon {
+  color: green;
+  margin-right: 10px;
+}
+
+.payment-error-container {
+  margin-top: 20px;
+}
+
+.retry-payment-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.qr-code-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.qr-code-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+.payment-information-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; /* Align all items center */
+}
+
+.payment-title {
+  font-size: 32px; /* Larger font size */
+  margin-bottom: 20px; /* Increased margin bottom */
+  font-weight: bold; /* Make text bold */
+}
+
+.total-bill, .reference-number {
+  font-size: 24px; /* Larger font size */
+  font-weight: bold; /* Make text bold */
+  margin-bottom: 10px; /* Increased margin bottom */
+}
+
+.paypal-button-container {
+  margin-top: 40px; /* Increased margin top */
+}
+
+.payment-success, .payment-error {
+  font-size: 24px; /* Larger font size */
+  margin-top: 40px; /* Increased margin top */
+  font-weight: bold; /* Make text bold */
+}
+
+.success-icon {
+  color: green;
+  margin-right: 10px;
+}
+
+.payment-error-container {
+  margin-top: 40px; /* Increased margin top */
+}
+
+.retry-payment-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px; /* Larger font size */
+  font-weight: bold; /* Make text bold */
+}
+
+.qr-code-container {
+  margin-top: 40px; /* Increased margin top */
+  text-align: center;
+}
+
+.qr-code-container h3 {
+  font-size: 24px; /* Larger font size */
+  margin-bottom: 20px; /* Increased margin bottom */
+  font-weight: bold; /* Make text bold */
+}

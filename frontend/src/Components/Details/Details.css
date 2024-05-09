@@ -1,0 +1,130 @@
+/* Details.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.full-page {
+  margin: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li svg {
+  margin-right: 5px;
+}
+
+.navbar ul li a:hover {
+  color: #ffd700;
+}
+
+.date-picker {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+  .date-picker-input {
+    width: 100%;
+    input {
+      width: 100%;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.order-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.order-item h2 {
+  color: #333;
+}
+
+.order-item p {
+  margin: 5px 0;
+}
+
+.order-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-item ul li {
+  margin: 5px 0;
+}
+
+.order-item hr {
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.paid-icon {
+  color: #28a745;
+  margin-right: 5px;
+}
+
+.pending-icon {
+  color: #dc3545;
+  margin-right: 5px;
+}
+
+/* Add this style for the delete button */
+.delete-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  color: red; /* Change color on hover if needed */
+}
+
+.order-item {
+  position: relative; /* Add relative positioning to order item */
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}

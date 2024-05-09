@@ -1,0 +1,31 @@
+# Node.js dependencies
+**/node_modules/
+
+# React build files
+build/
+dist/
+**/frontend/node_modules/
+**/backend/node_modules/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# OS generated files
+.DS_Store
+Thumbs.db
