@@ -86,18 +86,18 @@ function MonthlySalesDetails() {
         }
     }, [year, month]);
 
-    useEffect(() => {
-        const saveMonthlySalesAtEndOfMonth = () => {
-            const currentDate = new Date();
-            const lastDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0).getDate();
-            if (currentDate.getDate() === lastDayOfMonth) {
-                saveMonthlySales();
-            }
-        };
+    // useEffect(() => {
+    //     const saveMonthlySalesAtEndOfMonth = () => {
+    //         const currentDate = new Date();
+    //         const lastDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0).getDate();
+    //         if (currentDate.getDate() === lastDayOfMonth) {
+    //             saveMonthlySales();
+    //         }
+    //     };
 
-        const interval = setInterval(saveMonthlySalesAtEndOfMonth, 86400000); // Check every day
-        return () => clearInterval(interval);
-    }, []);
+    //     const interval = setInterval(saveMonthlySalesAtEndOfMonth, 86400000); // Check every day
+    //     return () => clearInterval(interval);
+    // }, []);
 
     const handleYearChange = (event) => {
         setYear(event.target.value);
@@ -107,28 +107,26 @@ function MonthlySalesDetails() {
         setMonth(event.target.value);
     };
 
-    const saveMonthlySales = async () => {
-        try {
-            await axios.post(`http://localhost:4000/api/monthly-sales/save`, {
-                year,
-                month,
-                totalSalePrice,
-                totalExpenditure,
-                totalProfit
-                // TODO: Add the rest of the fields
+    // const saveMonthlySales = async () => {
+    //     try {
+    //         await axios.post(`http://localhost:4000/api/monthly-sales/save`, {
+    //             year,
+    //             month,
+    //             totalSalePrice,
+    //             totalExpenditure,
+    //             totalProfit
+    //             // TODO: Add the rest of the fields
 
-            });
-            console.log('Monthly sales details saved successfully.');
-        } catch (error) {
-            console.error('Error saving monthly sales details:', error);
-        }
-    };
+    //         });
+    //         console.log('Monthly sales details saved successfully.');
+    //     } catch (error) {
+    //         console.error('Error saving monthly sales details:', error);
+    //     }
+    // };
 
 
 
-    if (loading) return <p>Loading...</p>;
-
-    if (error) return <p>Error: {error.message}</p>;
+  
 
     return (
         <div className="container">
