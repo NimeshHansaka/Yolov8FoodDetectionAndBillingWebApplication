@@ -67,20 +67,20 @@ mongoose.connect('mongodb://localhost:27017/Restaurant', {
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('MongoDB connection error:', err));
 
-// Function to restart the server
-const restartServer = () => {
-    exec('pm2 restart server', (error, stdout, stderr) => {
-        if (error) {
-            console.error(`Error restarting server: ${error.message}`);
-            return;
-        }
-        if (stderr) {
-            console.error(`stderr: ${stderr}`);
-            return;
-        }
-        console.log(`Server restarted: ${stdout}`);
-    });
-};
+// // Function to restart the server
+// const restartServer = () => {
+//     exec('pm2 restart server', (error, stdout, stderr) => {
+//         if (error) {
+//             console.error(`Error restarting server: ${error.message}`);
+//             return;
+//         }
+//         if (stderr) {
+//             console.error(`stderr: ${stderr}`);
+//             return;
+//         }
+//         console.log(`Server restarted: ${stdout}`);
+//     });
+// };
 
 // API endpoint for storing order details
 app.post('/api/orders', async (req, res) => {
@@ -128,7 +128,7 @@ app.post('/api/payment/success', async (req, res) => {
             }
 
             // Restart the server
-            restartServer();
+           // restartServer();
 
             return res.json({ success: true });
         } else {

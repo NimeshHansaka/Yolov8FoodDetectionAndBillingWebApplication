@@ -4,12 +4,6 @@ const route = express();
 const Order = require('../models/OrderSchema'); // Assuming your Order model is defined in a separate file
 
 
-
-
-
-
-
-
 // Paypal configuration
 paypal.configure({
     'mode': 'sandbox', //sandbox or live
