@@ -14,14 +14,17 @@ function Navbar() {
         <li><FontAwesomeIcon icon={faHome} /><a href="/">Home</a></li>
       </ul>
       <ul>
+          <li><FontAwesomeIcon icon={faShoppingCart} /><a href="/about">About</a></li>
+        </ul>
+      <ul>
         <li><FontAwesomeIcon icon={faShoppingCart} /><a href="/details">Orders</a></li>
       </ul>
       <ul>
         <li><FontAwesomeIcon icon={faShoppingCart} /><a href="/dailysale">Daily Sale</a></li>
       </ul>
       <ul>
-                <li><FontAwesomeIcon icon={faShoppingCart} /><a href="/monthlysale">Monthly Sale</a></li>
-            </ul>
+          <li><FontAwesomeIcon icon={faShoppingCart} /><a href="/monthlysale">Monthly Sale</a></li>
+      </ul>
 
       <ul>
         <li><FontAwesomeIcon icon={faUtensils} /><a href="/admin/fooditems">Food Items</a></li>

@@ -13,7 +13,7 @@ const AdminLogin = () => {
         // Check admin credentials (You can replace this with your authentication logic)
         if (username === 'admin' && password === 'password') {
             // If credentials are correct, navigate to admin dashboard
-            navigate('/details');
+            navigate('/about');
         } else {
             alert('Invalid username or password');
         }

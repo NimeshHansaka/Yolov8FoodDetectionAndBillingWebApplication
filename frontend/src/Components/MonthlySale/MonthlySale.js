@@ -15,6 +15,9 @@ function Navbar() {
           <li><FontAwesomeIcon icon={faHome} /><a href="/">Home</a></li>
         </ul>
         <ul>
+          <li><FontAwesomeIcon icon={faShoppingCart} /><a href="/about">About</a></li>
+        </ul>
+        <ul>
           <li><FontAwesomeIcon icon={faShoppingCart} /><a href="/details">Orders</a></li>
         </ul>
         <ul>
@@ -120,6 +123,12 @@ function MonthlySalesDetails() {
             console.error('Error saving monthly sales details:', error);
         }
     };
+
+
+
+    if (loading) return <p>Loading...</p>;
+
+    if (error) return <p>Error: {error.message}</p>;
 
     return (
         <div className="container">

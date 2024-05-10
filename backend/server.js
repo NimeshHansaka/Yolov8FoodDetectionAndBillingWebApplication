@@ -59,7 +59,7 @@ app.use(express.json());
 
 
 // MongoDB connection setup
-mongoose.connect('mongodb://localhost:27017/Restaurant', { 
+mongoose.connect('mongodb://localhost:27017/RestaurantData', { 
     useNewUrlParser: true, 
     useUnifiedTopology: true
   

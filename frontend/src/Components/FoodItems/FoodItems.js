@@ -12,6 +12,10 @@ function Navbar() {
       <ul>
         <li><FontAwesomeIcon icon={faHome} /><a href="/">Home</a></li>
       </ul>
+
+      <ul>
+          <li><FontAwesomeIcon icon={faShoppingCart} /><a href="/about">About</a></li>
+        </ul>
       <ul>
         <li><FontAwesomeIcon icon={faShoppingCart} /><a href="/details">Orders</a></li>
       </ul>

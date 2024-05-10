@@ -8,6 +8,7 @@ import AdminLogin from './Components/AdminLogin/AdminLogin';
 import FoodItems from './Components/FoodItems/FoodItems';
 import DailySale from './Components/DailySale/DailySale';
 import MonthlySale from './Components/MonthlySale/MonthlySale';
+import About from './Components/About/About';
 
 
 //import Payment from './Components/Payment/Payment';
@@ -34,6 +35,7 @@ const App = () => {
                 <Route path="/app" element={<CaptureImage />} />
                 {/* <Route path="/createpayment" element={<Payment/>} /> */}
                 <Route path="/details" element={<Details />} />
+                <Route path="/about" element={<About />} />
                 <Route path="/admin/login" element={<AdminLogin/>} />
                 <Route path="/admin/details" component={<Details />} />
                 <Route path="/admin/fooditems" element={<FoodItems/>} />
